@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Popup</title>
+    <link rel="icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="banner">
+        <div class="banner__description">
+            <h1>choose your side</h1>
+            <button type="button" class="banner__choice-button" id="show-modal-button">more info</button>
+        </div>
+    </header>
+    <section class="popup-container" id="modal-window">
+        <span class="close">&times;</span>
+        <iframe src="./iframe-content.html" class="popup-container__frame">
+        </iframe>
+    </section>
+    <section class="widget">
+        <p class="widget__button" id="show-widget">C. Y. S.</p>
+        <div class="widget__show" id="widget">
+            <span class="close -left-side closex">&times;</span>
+            <iframe class="widget__frame" src="iframe-content.html"></iframe>
+        </div>
+    </section>
+    <footer class="another-opponents">
+        <img src="./assets/Godspeed.jpg" alt="godspeed" class="another-opponents__enemy">
+        <img src="./assets/black-flash.jpg" alt="blackflash" class="another-opponents__enemy">
+        <img src="./assets/Inertia.jpg" alt="inertia" class="another-opponents__enemy">
+        <img src="./assets/Savitar.jpg" alt="savitar" class="another-opponents__enemy">
+    </footer>
+    <script src="js/popup.js"></script>
+</body>
+</html>
